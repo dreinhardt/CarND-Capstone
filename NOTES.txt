@@ -1,0 +1,18 @@
+
+# NOTES from Dominik
+
+1. Do first run ROS and afterwards start the Udacity simulator! Otherwise, there is a race condition in waypoints_cb.
+2. To debug within Visual Studio Code install requirements.txt and source... must be executed in terminal. Otherwise, styx modules won't be found.
+3. To debug the code within Visual Studio Code, go into styx.launch and comment the relevant node. Then use "roslaunch launch/styx.launch".
+4. In Visual Studio Code, chose the correct Python version (in window left below!)
+
+
+
+# BUILD
+    cd /home/workspace
+    cd CarND-Capstone
+    pip install -r requirements.txt
+    cd ros
+    catkin_make
+    source devel/setup.sh
+    roslaunch launch/styx.launch
