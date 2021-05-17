@@ -5,7 +5,12 @@
 2. To debug within Visual Studio Code install requirements.txt and source... must be executed in terminal. Otherwise, styx modules won't be found.
 3. To debug the code within Visual Studio Code, go into styx.launch and comment the relevant node. Then use "roslaunch launch/styx.launch".
 4. In Visual Studio Code, chose the correct Python version (in window left below!)
+5. The site_traffic_light_config.yaml and sim_traffic_light_config.yaml has a is_site boolean which must be adjusted finally!
 
+
+Before running, install: 
+    pip install --upgrade pip==20.1.1
+    sudo easy_install pip==20.1.1
 
 
 # BUILD
